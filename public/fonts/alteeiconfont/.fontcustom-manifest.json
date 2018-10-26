@@ -1,0 +1,50 @@
+{
+  "checksum": {
+    "previous": "a2cd30977a81c46e7db4dc0b50e3641823db88062c2251dba61de4acf4fac775",
+    "current": "a2cd30977a81c46e7db4dc0b50e3641823db88062c2251dba61de4acf4fac775"
+  },
+  "fonts": [
+    "./altee.ttf",
+    "./altee.svg",
+    "./altee.woff",
+    "./altee.eot"
+  ],
+  "glyphs": {
+    "dummy": {
+      "codepoint": 61696,
+      "source": "src/dummy.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "altee",
+    "force": false,
+    "input": {
+      "templates": "src/",
+      "vectors": "src/"
+    },
+    "no_hash": true,
+    "output": {
+      "css": ".",
+      "fonts": ".",
+      "preview": "."
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "preview",
+      "css"
+    ]
+  },
+  "templates": [
+    "./altee-preview.html",
+    "./altee.css"
+  ]
+}
